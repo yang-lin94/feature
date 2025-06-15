@@ -16,8 +16,5 @@
   },
   "installsAfter": [
       "ghcr.io/devcontainers/features/php"
-  ],
-  "dependsOn": [
-      "ghcr.io/devcontainers/features/php"
   ]
 }
