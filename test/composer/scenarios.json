@@ -1,9 +1,9 @@
 {
   "test": {
-      "name": "composer-with-php",
-      "image": "mcr.microsoft.com/devcontainers/php",
-      "features": {
-        "composer": {}
-      }
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/yang-lin94/feature/composer:1": {},
+      "composer": {}
     }
+  }
 }
