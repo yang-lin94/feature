@@ -1,5 +1,6 @@
 {
   "test": {
+      "name": "k9s-latest",
       "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
       "features": {
           "k9s": {}

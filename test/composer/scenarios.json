@@ -1,0 +1,12 @@
+{
+  "scenarios": [
+    {
+      "name": "composer-with-php",
+      "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+      "features": {
+        "ghcr.io/devcontainers/features/php:1": {},
+        "composer": {}
+      }
+    }
+  ]
+}
