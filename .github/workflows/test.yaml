@@ -19,7 +19,7 @@ jobs:
         id: discover
         run: |
           # Find all features and convert to JSON array
-          FEATURES=$(find src -name "devcontainer-feature.json" -exec dirname {} \; | xargs -n 1 basename | jq -R . | jq -s .)
+          FEATURES=$(find src -name "devcontainer-feature.json" -exec dirname {} \; | xargs -n 1 basename | jq -R . | jq -s -c .)
           FEATURES_COUNT=$(echo "$FEATURES" | jq length)
 
           echo "features=$FEATURES" >> $GITHUB_OUTPUT
