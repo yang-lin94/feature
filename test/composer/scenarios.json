@@ -1,6 +1,5 @@
 {
-  "scenarios": [
-    {
+  "test": {
       "name": "composer-with-php",
       "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
       "features": {
@@ -8,5 +7,4 @@
         "composer": {}
       }
     }
-  ]
 }
