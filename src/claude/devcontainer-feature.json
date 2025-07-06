@@ -1,6 +1,6 @@
 {
   "name": "Claude",
-  "id": "Claude",
+  "id": "claude",
   "version": "1.0.0",
   "description": "Install claude code interpreter",
   "documentationURL": "https://github.com/yang-lin94/features/tree/main/src/claude",
@@ -15,6 +15,6 @@
       }
   },
   "installsAfter": [
-      "ghcr.io/devcontainers/features/node:1"
+      "ghcr.io/devcontainers/features/node"
   ]
 }
