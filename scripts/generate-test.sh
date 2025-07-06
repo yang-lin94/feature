@@ -87,15 +87,12 @@ EOF
 print_info "Generating scenarios.json for $FEATURE_NAME..."
 cat > "$TEST_DIR/scenarios.json" << EOF
 {
-  "test": [
-    {
-      "name": "$FEATURE_NAME-basic",
-      "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-      "features": {
-        "ghcr.io/yang-lin94/feature/$FEATURE_NAME:1": {}
-      }
+  "test": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "$FEATURE_NAME": {}
     }
-  ]
+  }
 }
 EOF
 
