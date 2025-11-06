@@ -1,7 +1,7 @@
 {
   "name": "Composer (via Github Releases)",
   "id": "composer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Composer is an open source dependency management tool for PHP.",
   "documentationURL": "https://github.com/yang-lin94/features/tree/main/src/composer",
   "options": {
